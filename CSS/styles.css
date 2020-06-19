@@ -150,7 +150,7 @@ margin: auto;
     width: 60%;
     height: 100vh;
     justify-content: center;
-    background: url(../IMG/AMBIENT-8.png)u;
+    background: url(../IMG/AMBIENT-8.png);
     background-repeat: no-repeat;
     background-position: -40px 50%;
     background-size: cover;
