@@ -6,7 +6,7 @@ let imatgeOri, imatgeProcess;
 
 function preload() {
     //imatgeOri = loadImage("js/pixelSorting/img/twinpeaks.jpg");
-    imatgeOri = loadImage("../IMG/polixuia.jpg");
+    imatgeOri = loadImage("../exarkhia/IMG/polixuia.jpg");
 
 }
 
