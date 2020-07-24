@@ -185,10 +185,10 @@ animaciotxt.fromTo("#divdos", 1, {
 new ScrollMagic.Scene({
         triggerElement: "#seccio2",
         triggerHook: 0,
-        duration: "300%",
+        duration: "200%",
     })
     .setTween(animaciotxt)
-    .setPin("#seccio2")
+    
     //    .addIndicators({name:"seccio2s"})
     .addTo(controller);
 //coronels imatge
@@ -201,7 +201,8 @@ animaciocoronel.fromTo("#coronels", 4, {
 new ScrollMagic.Scene({
         triggerElement: "#seccio2",
         triggerHook: 0.,
-        duration: "600%",
+        duration: "400%",
+    .setPin("#seccio2")
     })
     .setTween(animaciocoronel) ////!!!!!!//
     //    .addIndicators({name:"CORONEL FONS"})
@@ -231,7 +232,7 @@ animaciohistoria.fromTo("#divdos", 1, {
 new ScrollMagic.Scene({
         triggerElement: "#videohistoria",
         triggerHook: 0,
-        duration: "300%",
+        duration: "200%",
     })
     .setTween(animaciohistoria)
     .setPin("#videohistoria")
@@ -334,7 +335,7 @@ destacathist.fromTo("#destacatet", 2, {
 new ScrollMagic.Scene({
         triggerElement: "#destacathisto",
         triggerHook: 0,
-        duration: "300%",
+        duration: "200%",
     })
     .setTween(destacathist)
     .setPin("#destacathisto")
@@ -369,16 +370,17 @@ animacio4b.fromTo("#divtres", 10, {
 new ScrollMagic.Scene({
         triggerElement: "#seccio3",
         triggerHook: 0,
-        duration: "900%",
+        duration: "200%",
     })
     .setTween(animacio4b)
-    .setPin("#seccio3")
+    
     // .addIndicators({name:"divdos PINEJAT TEXTE"})
     .addTo(controller);
 new ScrollMagic.Scene({
         triggerElement: "#seccio3",
         triggerHook: 0.,
-        duration: "900%",
+    .setPin("#seccio3"),
+        duration: "500%",
     })
     .setTween(animacio4d) ////!!!!!!//
     //    .addIndicators({name:"divdos PINEJAT TEXTE"})
@@ -409,7 +411,7 @@ new ScrollMagic.Scene({
 
         triggerElement: "#videohistoria",
         triggerHook: 0.2,
-        duration: "300%",
+        duration: "200%",
         ease: Power2.easeInOut
     })
     .setTween(textdestacat)
@@ -436,7 +438,7 @@ new ScrollMagic.Scene({
 
         triggerElement: "#secciomitat2",
         triggerHook: 0,
-        duration: "100%",
+        duration: "200%",
         ease: Power2.easeInOut
     })
     .setTween(textdestacat2)
@@ -473,7 +475,7 @@ new ScrollMagic.Scene({
 
         triggerElement: "#secciomitat3",
         triggerHook: 0,
-        duration: "300%",
+        duration: "200%",
         ease: Power2.easeInOut
     })
     .setTween(textdestacat3)
@@ -490,7 +492,7 @@ new ScrollMagic.Scene({
 
         triggerElement: ".objecte",
         triggerHook: 0,
-        duration: "50%",
+        duration: "300%",
         ease: Power2.easeInOut
     })
     .setPin("#paretexxt")
@@ -518,7 +520,7 @@ animacioelbarri.fromTo("#elbarri", 10, {
 new ScrollMagic.Scene({
         triggerElement: "#secciotitol2",
         triggerHook: 0.1,
-        duration: "300%",
+        duration: "200%",
  
     })
     .setTween(animacioelbarri)
@@ -548,10 +550,11 @@ animacio77.fromTo("#divdos2", 1, {
 new ScrollMagic.Scene({
         triggerElement: "#seccio4",
         triggerHook: 0,
-        duration: "400%",
+        duration: "500%",
     
     })
     .setTween(animacio78)
+ .setPin("#seccio4")
 //    .addIndicators({
 //        name: "divdos PINEJAT TEXTE"
 //    })
@@ -560,10 +563,9 @@ new ScrollMagic.Scene({
 new ScrollMagic.Scene({
         triggerElement: "#seccio4",
         triggerHook: 0,
-        duration: "400%",
+        duration: "300%",
     })
     .setTween(animacio77)
-    .setPin("#seccio4")
     //     .addIndicators({name:"divdos PINEJAT TEXTE"})
     .addTo(controller);
 
@@ -598,9 +600,9 @@ animacio46.fromTo("#divdos45", 1, {
 new ScrollMagic.Scene({
         triggerElement: "#seccio45",
         triggerHook: 0,
-        duration: "400%",
+        duration: "200%",
     })
-    .setTween(animacio45)
+    .setTween(animacio46)
 //    .addIndicators({
 //        name: "divdos PINEJAT TEXTE"
 //    })
@@ -612,7 +614,7 @@ new ScrollMagic.Scene({
         duration: "400%",
 
     })
-    .setTween(animacio46)
+    .setTween(animacio45)
     .setPin("#seccio45")
     //     .addIndicators({name:"divdos PINEJAT TEXTE"})
     .addTo(controller);
@@ -622,7 +624,7 @@ new ScrollMagic.Scene({
 new ScrollMagic.Scene({
         triggerElement: "#secciomorfin",
         triggerHook: 0,
-        duration: "800%",
+        duration: "700%",
     })
     //    .setTween(animacio77)
     .setPin("#secciomorfin")
@@ -664,7 +666,7 @@ animaciomorph.to("#gaato", 8, {
 new ScrollMagic.Scene({
         triggerElement: "#oblidat",
         triggerHook: 0,
-        duration: "800%"
+        duration: "700%"
     })
     .setTween(animaciomorph)
     //seccioti    .addIndicators({
@@ -714,7 +716,7 @@ new ScrollMagic.Scene({
 new ScrollMagic.Scene({
         triggerElement: "#secciopixel",
         triggerHook: 0,
-        duration: "200%"
+        duration: "350%"
     })
     .on("progress", actualitzaProgres)
     .setPin("#secciopixel")
@@ -747,7 +749,7 @@ textdestacat4.fromTo("#destacatet4", 5, {
 new ScrollMagic.Scene({
         triggerElement: "#secciomitat4",
         triggerHook: 0.2,
-        duration: "300%",
+        duration: "200%",
     })
     .setTween(textdestacat4)
     .setPin("#secciomitat4")
@@ -824,7 +826,7 @@ new ScrollMagic.Scene({
 
         triggerElement: "#seccionefasta",
         triggerHook: 0,
-        duration: "400%",
+        duration: "300%",
         ease: Power2.easeInOut
     })
     .setTween(text2008)
@@ -852,10 +854,10 @@ textsquats.fromTo("#textsquat", 5, {
 new ScrollMagic.Scene({
         triggerElement: "#secciosquat",
         triggerHook: 0,
-        duration: "500%",
+        duration: "300%",
     })
     .setTween(textsquats)
-    .setPin("#secciosquat")
+    
 //    .addIndicators({
 //        name: "squats text"
 //    })
@@ -874,6 +876,7 @@ new ScrollMagic.Scene({
         triggerHook: 0,
         duration: "500%",
     })
+.setPin("#secciosquat")
     .setTween(animaciosquats)
     .addTo(controller);
 //seccio mitat2 
@@ -953,10 +956,10 @@ opacity: 1,
 new ScrollMagic.Scene({
         triggerElement: "#seccio2008",
         triggerHook: 0,
-        duration: "300%",
+        duration: "200%",
     })
     .setTween(desembre)
-    .setPin("#seccio2008")
+   
     //    .addIndicators({
     //        name: "seccio2008"
     //    })
@@ -971,12 +974,14 @@ img2008.fromTo("#foto2008", 3, {
 new ScrollMagic.Scene({
         triggerElement: "#seccio2008",
         triggerHook: 0,
-        duration: "300%",
+        duration: "400%",
     })
+
     .setTween(img2008)
     //    .addIndicators({
     //        name: "seccio2008"
     //    })
+ .setPin("#seccio2008"),
     .addTo(controller);
 
 
@@ -985,7 +990,7 @@ new ScrollMagic.Scene({
 new ScrollMagic.Scene({
         triggerElement: "#videonoticies",
         triggerHook: 0,
-        duration: "300%",
+        duration: "200%",
     })
     .setTween()
     .setPin("#videonoticies")
@@ -997,7 +1002,7 @@ new ScrollMagic.Scene({
 
         triggerElement: "#secciovideo",
         triggerHook: 0,
-        duration: "400%",
+        duration: "200%",
         ease: Power2.easeInOut
     })
     .setPin("#secciovideo")
@@ -1022,7 +1027,7 @@ new ScrollMagic.Scene({
         triggerHook: 0,
         duration: "200%",
     })
-    .setTween(textdestacat7)
+    .setTween(destacato)
     .setPin("#titol4")
     //    .addIndicators({
     //        name: "scarlett"
@@ -1069,22 +1074,13 @@ animacioactual.fromTo("#subtitolactual", 1, {
     blur: 0,
     opacity: 1,
 }, 0);
-animacioactual.fromTo("#divdosactual", 1, {
-    bottom: "10%",
-    opacity: 0,
-}, {
-    bottom: "30%",
-    opacity: 1,
-}, 0);
-
 
 new ScrollMagic.Scene({
         triggerElement: "#seccioactual",
         triggerHook: 0,
-        duration: "800%",
+        duration: "200%",
     })
     .setTween(animacioactual)
-    .setPin("#seccioactual")
     //    .addIndicators({name:"seccio2s"})
     .addTo(controller);
 let animaciofotu = new TimelineMax();
@@ -1100,6 +1096,7 @@ new ScrollMagic.Scene({
         duration: "800%",
     })
     .setTween(animaciofotu)
+   .setPin("#seccioactual")
     //    .addIndicators({name:"seccio2s"})
     .addTo(controller);
 
